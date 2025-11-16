@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,47.886056776742194,29.360180650584038,0.38997307545469495,"{'model__max_depth': 3, 'model__n_estimators': 100}",Porção de Frios Completa,169
+MLP,48.577103985479084,32.63864195477625,0.37223934689172444,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Porção de Frios Completa,169
+Linear,49.05663739204243,31.609132835361986,0.35978417713501876,{'model__fit_intercept': True},Porção de Frios Completa,169
+KNN,58.905032528153804,37.39142857142857,0.07692784207842507,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Porção de Frios Completa,169
+SVR,65.22895497278901,23.59640706921027,-0.13190946910149948,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Porção de Frios Completa,169

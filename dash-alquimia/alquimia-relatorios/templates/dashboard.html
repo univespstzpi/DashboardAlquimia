@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Cervejaria Alquimia</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-beer"></i> Cervejaria Alquimia - Dashboard</h1>
+            <p>Sertãozinho-SP</p>
+            <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Voltar para Home</a>
+        </header>
+
+        <div class="filter-container">
+            <div class="filter-item">
+                <label for="start-date">Data Início:</label>
+                <input type="date" id="start-date">
+            </div>
+            <div class="filter-item">
+                <label for="end-date">Data Fim:</label>
+                <input type="date" id="end-date">
+            </div>
+            <button id="filter-button" class="filter-button"><i class="fas fa-filter"></i> Aplicar Filtro</button>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-icon">
+                    <i class="fas fa-industry"></i>
+                </div>
+                <div class="metric-content">
+                    <h3>Capacidade Total</h3>
+                    <p class="metric-value" id="capacidade-total">-</p>
+                    <span class="metric-unit">litros</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="metric-content">
+                    <h3>Receita Potencial</h3>
+                    <p class="metric-value" id="receita-potencial">-</p>
+                    <span class="metric-unit">R$/mês</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="metric-content">
+                    <h3>Lucratividade</h3>
+                    <p class="metric-value" id="lucratividade">-</p>
+                    <span class="metric-unit">R$/mês</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon">
+                    <i class="fas fa-percentage"></i>
+                </div>
+                <div class="metric-content">
+                    <h3>Utilização Capacidade</h3>
+                    <p class="metric-value" id="utilizacao-capacidade">-</p>
+                    <span class="metric-unit">%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-container">
+                <h3>Produção por Cerveja</h3>
+                <canvas id="producaoChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Receita por Cerveja</h3>
+                <canvas id="receitaChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Despesas do Prédio</h3>
+                <canvas id="despesasChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Margem de Lucro por Cerveja</h3>
+                <canvas id="margemChart"></canvas>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <h3>Detalhes das Cervejas</h3>
+            <table id="cervejas-table">
+                <thead>
+                    <tr>
+                        <th>Cerveja</th>
+                        <th>Volume Produzido (L)</th>
+                        <th>Volume Real (L)</th>
+                        <th>Custo Total (R$)</th>
+                        <th>Receita Potencial (R$)</th>
+                        <th>Lucro (R$)</th>
+                        <th>Margem (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dados serão inseridos via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+</body>
+</html>

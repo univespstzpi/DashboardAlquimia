@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,0.10777817300739949,0.07771757704754645,0.0,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caneca Witbier,173
+KNN,1.9242809417694557,0.5142857142857143,0.0,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Caneca Witbier,173
+RandomForest,4.333142470963836,3.0773065366622445,0.0,"{'model__max_depth': 3, 'model__n_estimators': 100}",Caneca Witbier,173
+MLP,5.762217337513316,4.619247216158931,0.0,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Caneca Witbier,173
+Linear,10.105076893122833,6.840037655137189,0.0,{'model__fit_intercept': True},Caneca Witbier,173

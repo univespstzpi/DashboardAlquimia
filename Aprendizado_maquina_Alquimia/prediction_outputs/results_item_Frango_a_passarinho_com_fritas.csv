@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,69.56971859870606,40.22659007943027,0.485007548945954,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Frango a passarinho com fritas chddar e bacon,171
+Linear,76.35260815744329,53.476187113782636,0.37969094134929593,{'model__fit_intercept': True},Frango a passarinho com fritas chddar e bacon,171
+RandomForest,80.06770780639752,44.523380216128444,0.317857417738164,"{'model__max_depth': 3, 'model__n_estimators': 50}",Frango a passarinho com fritas chddar e bacon,171
+KNN,98.38536661832829,59.26176690485936,-0.029962437206337622,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Frango a passarinho com fritas chddar e bacon,171
+SVR,115.08027640763525,64.01346816350504,-0.4091660202665428,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Frango a passarinho com fritas chddar e bacon,171

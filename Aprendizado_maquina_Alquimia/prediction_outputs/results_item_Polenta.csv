@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,10.683356481178068,7.201117352446201,0.10518861128119328,"{'model__max_depth': 3, 'model__n_estimators': 50}",Polenta,120
+MLP,11.226055848896241,8.363271599031403,0.011969253407306146,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Polenta,120
+KNN,11.759656795184812,7.156555664075418,-0.0841898990538048,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Polenta,120
+SVR,13.325163783511389,7.178196030345686,-0.3920703204820437,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Polenta,120
+Linear,14.50852127566891,12.444680528032375,-0.6502979665152533,{'model__fit_intercept': False},Polenta,120

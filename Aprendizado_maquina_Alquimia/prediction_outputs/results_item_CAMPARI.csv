@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,31.569044272810014,20.895950956707498,0.4340886378965225,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",CAMPARI,173
+RandomForest,34.523211541030975,24.015694524894922,0.32321936424892317,"{'model__max_depth': 3, 'model__n_estimators': 100}",CAMPARI,173
+KNN,36.869499589769326,23.657142857142862,0.22810179390905305,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",CAMPARI,173
+Linear,36.87945958083959,26.086757135175336,0.22768469371709743,{'model__fit_intercept': True},CAMPARI,173
+SVR,44.58264410991504,26.22156357209163,-0.12864455147331988,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",CAMPARI,173

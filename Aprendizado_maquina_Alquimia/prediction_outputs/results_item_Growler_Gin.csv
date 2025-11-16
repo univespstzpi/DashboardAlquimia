@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,11.463878661027868,7.091687425109578,0.1327131065611128,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Growler Gin,270
+KNN,16.115653437397,12.428571428571429,-0.7139393939393945,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Growler Gin,270
+MLP,19.239525590997864,14.706977321537503,-1.4428024112278024,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Growler Gin,270
+RandomForest,27.135303282102228,19.887637574766977,-3.8592470742588203,"{'model__max_depth': 3, 'model__n_estimators': 100}",Growler Gin,270
+Linear,34.1824979799628,26.469825617643494,-6.7109380793748015,{'model__fit_intercept': True},Growler Gin,270

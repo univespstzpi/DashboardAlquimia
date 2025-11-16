@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,7.607031602048625,5.464128258270487,0.05104432398468639,"{'model__max_depth': 3, 'model__n_estimators': 100}",Água Tônica,209
+Linear,7.905368048966868,5.744151042726494,-0.024848512547417823,{'model__fit_intercept': True},Água Tônica,209
+KNN,8.350876771761325,5.6571428571428575,-0.1436144578313252,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Água Tônica,209
+SVR,8.466173596587543,5.27012275767214,-0.1754112024800023,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Água Tônica,209
+MLP,9.11469958298917,6.757643416588287,-0.36238610305187535,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Água Tônica,209

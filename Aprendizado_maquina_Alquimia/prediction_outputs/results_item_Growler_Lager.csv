@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,46.02710543659872,33.953699771538886,0.7345598066117826,"{'model__max_depth': 5, 'model__n_estimators': 100}",Growler Lager,563
+MLP,61.72313528455742,45.01521480984743,0.5226517724653437,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Growler Lager,563
+Linear,62.22887039051456,40.29288580201934,0.5147973181565197,{'model__fit_intercept': True},Growler Lager,563
+KNN,63.29751836457637,41.92095402623873,0.49798958829939177,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Growler Lager,563
+SVR,81.05981726019161,58.53129369622864,0.17671425021856035,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Growler Lager,563

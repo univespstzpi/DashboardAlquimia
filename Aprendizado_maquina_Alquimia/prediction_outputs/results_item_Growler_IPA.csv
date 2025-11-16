@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,153.97250962300478,110.87524727365928,0.4811443523994322,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Growler IPA,645
+Linear,156.643974874433,113.67947740477906,0.4629835847934062,{'model__fit_intercept': True},Growler IPA,645
+RandomForest,160.63900459438278,120.77810761347483,0.4352422750811329,"{'model__max_depth': 3, 'model__n_estimators': 50}",Growler IPA,645
+KNN,169.43605620663254,124.91428571428571,0.3716930845139229,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Growler IPA,645
+SVR,212.9163532710068,151.58968231779698,0.007848005685372361,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}",Growler IPA,645

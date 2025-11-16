@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+Linear,25.164157048981266,17.461735719767,0.2669884104102611,{'model__fit_intercept': True},Linguiça defumada com Mandioca,176
+KNN,25.722193307947677,17.821428571428573,0.23411764705882399,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Linguiça defumada com Mandioca,176
+RandomForest,25.830557159229944,15.322495324064878,0.22765095262655421,"{'model__max_depth': 3, 'model__n_estimators': 50}",Linguiça defumada com Mandioca,176
+MLP,30.248773832971395,22.238469059032575,-0.0591601120787959,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Linguiça defumada com Mandioca,176
+SVR,31.98479286351939,14.267845710062764,-0.18422207497843268,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Linguiça defumada com Mandioca,176

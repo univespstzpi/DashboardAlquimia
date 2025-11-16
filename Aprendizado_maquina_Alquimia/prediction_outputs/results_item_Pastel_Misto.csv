@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,51.814538856070506,36.26368095486352,0.5967011647045573,"{'model__max_depth': 3, 'model__n_estimators': 50}",Pastel Misto,316
+Linear,57.75962899299644,39.366015098165335,0.49884452063109497,{'model__fit_intercept': True},Pastel Misto,316
+MLP,61.05192597188671,45.059593847155305,0.44008457619867325,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Pastel Misto,316
+KNN,71.45917235936695,49.87428571428571,0.23292177096931288,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Pastel Misto,316
+SVR,95.62680674410427,62.75584779480965,-0.37367185605171027,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Pastel Misto,316

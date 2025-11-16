@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,9.164072347025098,5.019968378658832,-0.0021384175571370623,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Gin Taça,256
+RandomForest,10.853597146593529,7.314668713248914,-0.40571762070176387,"{'model__max_depth': 3, 'model__n_estimators': 100}",Gin Taça,256
+KNN,11.871334020596482,7.357142857142857,-0.6817047184170475,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Gin Taça,256
+Linear,12.115037934249512,8.031209643946202,-0.7514601067316731,{'model__fit_intercept': True},Gin Taça,256
+MLP,12.953490788224746,9.558238948639708,-1.0022778097852165,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Gin Taça,256

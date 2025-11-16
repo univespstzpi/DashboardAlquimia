@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,19.615113932373255,16.13462894101564,0.25629656668957845,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Torresmo,181
+RandomForest,19.825556228797225,13.874681366483612,0.24025320278979,"{'model__max_depth': 3, 'model__n_estimators': 100}",Torresmo,181
+KNN,23.270250167480857,15.627142857142859,-0.04669517159763292,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Torresmo,181
+Linear,23.692124003635495,17.42595033062957,-0.08499093689855686,{'model__fit_intercept': True},Torresmo,181
+SVR,24.507110623457947,9.343914378544701,-0.16092012167297276,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Torresmo,181

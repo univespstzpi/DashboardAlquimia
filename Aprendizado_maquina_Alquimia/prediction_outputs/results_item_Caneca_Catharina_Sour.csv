@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,57.979996550534565,42.60000000000001,0.10019271948608144,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Caneca Catharina Sour,93
+Linear,63.045506590866076,45.11993379183771,-0.06390147251042233,{'model__fit_intercept': True},Caneca Catharina Sour,93
+MLP,67.28445687842635,56.361213750437585,-0.21177680337923332,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Caneca Catharina Sour,93
+RandomForest,81.0086208126876,60.47999815343711,-0.7565301514919169,"{'model__max_depth': 5, 'model__n_estimators': 50}",Caneca Catharina Sour,93
+SVR,89.21533005025,67.53299165940238,-1.1304537248327198,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caneca Catharina Sour,93

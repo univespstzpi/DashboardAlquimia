@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,37.35593604455574,26.56652945152128,0.24525490515860826,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Calabresa Acebolada com mandioca frita,118
+Linear,38.36140691602536,27.535009156528268,0.20407873861001413,{'model__fit_intercept': True},Calabresa Acebolada com mandioca frita,118
+RandomForest,38.85627505358914,23.728222898639217,0.1834112691114057,"{'model__max_depth': 3, 'model__n_estimators': 50}",Calabresa Acebolada com mandioca frita,118
+KNN,41.74622994098647,25.67142857142857,0.057425742574257144,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Calabresa Acebolada com mandioca frita,118
+SVR,47.812143973645135,21.483594195128983,-0.23639571140937177,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Calabresa Acebolada com mandioca frita,118

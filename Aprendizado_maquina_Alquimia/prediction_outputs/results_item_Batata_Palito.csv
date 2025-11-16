@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,71.81036551686162,40.22374172137124,0.4435848964068476,"{'model__max_depth': 5, 'model__n_estimators': 100}",Batata Palito,337
+MLP,71.8861329809849,42.81511763902984,0.4424101244436196,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Batata Palito,337
+Linear,73.0372500282129,42.413634929297245,0.42440970668154776,{'model__fit_intercept': True},Batata Palito,337
+KNN,80.62198570691655,46.789959349711566,0.29865514293469575,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Batata Palito,337
+SVR,100.51650062156796,53.30558560290598,-0.09018287805464253,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Batata Palito,337

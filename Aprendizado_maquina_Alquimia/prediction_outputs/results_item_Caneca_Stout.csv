@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,13.254260404439837,11.157840806271624,0.3519952179639879,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caneca Stout,430
+Linear,20.17352282832072,15.941566508087888,-0.5011728501907624,{'model__fit_intercept': True},Caneca Stout,430
+MLP,22.004309020123568,17.23465355224542,-0.7860050554954447,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Caneca Stout,430
+RandomForest,22.161340121938665,16.616145957736613,-0.8115872330632474,"{'model__max_depth': 3, 'model__n_estimators': 100}",Caneca Stout,430
+KNN,22.47614608550903,19.28571428571428,-0.863420656428787,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Caneca Stout,430

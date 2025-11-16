@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,0.0,0.0,1.0,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Suco de Laranja Afrutte 300ml,219
+SVR,0.8136349380198505,0.512268247275888,0.0,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Suco de Laranja Afrutte 300ml,219
+RandomForest,1.4363237804898088,1.1962968578421553,0.0,"{'model__max_depth': 3, 'model__n_estimators': 50}",Suco de Laranja Afrutte 300ml,219
+MLP,2.935970465064409,2.5562663775810175,0.0,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Suco de Laranja Afrutte 300ml,219
+Linear,8.383543651271307,5.923076550512336,0.0,{'model__fit_intercept': True},Suco de Laranja Afrutte 300ml,219

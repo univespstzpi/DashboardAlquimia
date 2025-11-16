@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,5.094905561246461,2.685565884333701,0.41357995794237645,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Guarana,303
+Linear,6.768715216424878,4.604128882670119,-0.0350206447081709,{'model__fit_intercept': True},Guarana,303
+RandomForest,7.6417617393942425,5.275997774595765,-0.31923909709627285,"{'model__max_depth': 3, 'model__n_estimators': 100}",Guarana,303
+MLP,8.358210482194032,6.20859632414369,-0.5782039837566852,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Guarana,303
+KNN,8.578403110183213,5.35998610590306,-0.662453202452397,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Guarana,303

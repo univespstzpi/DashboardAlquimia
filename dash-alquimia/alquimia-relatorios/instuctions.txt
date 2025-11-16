@@ -1,0 +1,10 @@
+# No Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+# No macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+pip install Flask pandas openpyxl Flask-SQLAlchemy PyMySQL Flask-Cors
+

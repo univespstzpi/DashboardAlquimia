@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,230.44907013242639,162.6626974504564,0.861753510397733,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Caneca Pilsen,583
+MLP,243.54821784597377,191.41083183413917,0.8455904688772546,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (100,)}",Caneca Pilsen,583
+RandomForest,246.3996725104711,159.74756504883047,0.8419536593564714,"{'model__max_depth': 5, 'model__n_estimators': 100}",Caneca Pilsen,583
+Linear,250.57151427812522,170.564169730904,0.836556524992015,{'model__fit_intercept': True},Caneca Pilsen,583
+SVR,644.4303805066704,506.4891436596503,-0.08107594690823139,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}",Caneca Pilsen,583

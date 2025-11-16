@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,21.137592280396216,16.85659759339552,0.465135039499633,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Heineken Zero Alcool,181
+RandomForest,22.297072990356526,15.967360914123594,0.40484672791637255,"{'model__max_depth': 3, 'model__n_estimators': 50}",Heineken Zero Alcool,181
+Linear,24.02314243362894,17.268892515474793,0.3091357068568662,{'model__fit_intercept': True},Heineken Zero Alcool,181
+KNN,24.16230830978578,15.942857142857147,0.30110817941952506,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Heineken Zero Alcool,181
+SVR,32.15195807659974,18.84533523804176,-0.23750786670116142,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Heineken Zero Alcool,181

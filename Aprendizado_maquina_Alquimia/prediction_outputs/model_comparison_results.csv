@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params
+Linear,34470.17412099398,29704.90280389877,0.012121432356072215,{'model__fit_intercept': True}
+RandomForest,46576.77165977692,41165.90405396824,-0.8036629140189626,"{'model__max_depth': 3, 'model__n_estimators': 100}"
+KNN,50749.78225478107,48818.36497930118,-1.1413367743259775,"{'model__n_neighbors': 3, 'model__weights': 'distance'}"
+SVR,76729.8718892714,68444.94131678651,-3.8949195137172863,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}"
+MLP,188065.99020650733,184861.7055706779,-28.406080307273037,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}"

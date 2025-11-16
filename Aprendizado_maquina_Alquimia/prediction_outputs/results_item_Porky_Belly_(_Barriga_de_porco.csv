@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,20.30000803287632,13.86863122552317,0.520598811954214,"{'model__max_depth': 3, 'model__n_estimators': 100}",Porky Belly ( Barriga de porco defumada ),167
+MLP,22.155694402343862,15.622412674768848,0.42894568322362703,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Porky Belly ( Barriga de porco defumada ),167
+KNN,23.006237187816527,13.652992231609145,0.38425928410517696,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Porky Belly ( Barriga de porco defumada ),167
+Linear,23.233831564300157,16.969719205282477,0.37201631694238046,{'model__fit_intercept': True},Porky Belly ( Barriga de porco defumada ),167
+SVR,34.338939439902525,18.522146762761338,-0.3717672876134517,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Porky Belly ( Barriga de porco defumada ),167

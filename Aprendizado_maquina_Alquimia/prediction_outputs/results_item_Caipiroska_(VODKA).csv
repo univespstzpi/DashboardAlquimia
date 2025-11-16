@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+Linear,53.63036790381072,42.116111019636705,0.7167143684152634,{'model__fit_intercept': True},Caipiroska (VODKA),350
+MLP,55.081741413995886,39.49128943321302,0.7011740429694128,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (100,)}",Caipiroska (VODKA),350
+RandomForest,65.25166905363965,36.86142857142857,0.5806407328643215,"{'model__max_depth': None, 'model__n_estimators': 50}",Caipiroska (VODKA),350
+KNN,76.7960933697521,45.253809393586586,0.4191269188222543,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Caipiroska (VODKA),350
+SVR,93.3905278133229,46.93701051768584,0.14096935964361623,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caipiroska (VODKA),350

@@ -1,0 +1,62 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,8.949031138359745,6.897081810874204,0.30927652234080794,"{'model__max_depth': 3, 'model__n_estimators': 100}",Amendoim,137
+SVR,8.863482249727639,5.057385056617207,0.40085532109406863,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Balde de Gelo,279
+RandomForest,71.81036551686162,40.22374172137124,0.4435848964068476,"{'model__max_depth': 5, 'model__n_estimators': 100}",Batata Palito,337
+MLP,48.16813864416313,30.01960975868881,0.6847595678745487,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Batata Palito com cheddar e bacon,355
+Linear,25.189892014243846,17.557570772633998,0.41679167307971887,{'model__fit_intercept': True},Batata Rústica,251
+MLP,31.569044272810014,20.895950956707498,0.4340886378965225,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",CAMPARI,173
+Linear,2.2490063329490955,1.2593122764258557,0.29839081444695903,{'model__fit_intercept': True},CDB,101
+MLP,127.99776984112829,81.56279463126702,0.4190588691952457,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Caipirinha (CACHAÇA),316
+Linear,53.63036790381072,42.116111019636705,0.7167143684152634,{'model__fit_intercept': True},Caipiroska (VODKA),350
+MLP,37.35593604455574,26.56652945152128,0.24525490515860826,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Calabresa Acebolada com mandioca frita,118
+KNN,57.979996550534565,42.60000000000001,0.10019271948608144,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Caneca Catharina Sour,93
+RandomForest,92.73354486405212,62.476346194431514,0.7144253198600881,"{'model__max_depth': 3, 'model__n_estimators': 100}",Caneca IPA,652
+KNN,31.501836681147882,20.571428571428566,0.6974871220604704,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Caneca Lager,483
+KNN,230.44907013242639,162.6626974504564,0.861753510397733,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Caneca Pilsen,583
+SVR,3.679283520162735,1.1001249742708015,-0.04131747859546819,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caneca Red Ale,99
+SVR,13.254260404439837,11.157840806271624,0.3519952179639879,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caneca Stout,430
+SVR,4.740372224839455,2.793025987543325,-0.27440429707342484,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caneca Weiss,214
+SVR,0.10777817300739949,0.07771757704754645,0.0,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caneca Witbier,173
+KNN,10.785257173953326,8.8520073362537,0.8455347738995319,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Coca Cola 350ml,561
+RandomForest,13.16550686503955,8.359503625145049,0.6620026273616375,"{'model__max_depth': 5, 'model__n_estimators': 100}",Coca Cola Zero 350ml,392
+MLP,2.9377938837563677,1.97427014628815,0.5222806978047108,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Copo Com Gelo,350
+KNN,50.30856729084166,29.034285714285716,0.2288289399064769,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",CostelInha barbecue,158
+MLP,508.1555632099892,328.0647114634545,0.7937524401870385,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Couvert Artístico,487
+MLP,37.80888527488945,30.71202344581265,0.7401307876407783,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Coxinha Frango Catupiry,323
+SVR,5.699708112505855,3.0962227628122494,-0.0073386842717846346,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Del Vale Uva Lata 290ml,94
+RandomForest,11.296335689063069,8.540000000000001,0.8865713777777778,"{'model__max_depth': None, 'model__n_estimators': 50}",Energetico Monster 473ml,376
+KNN,39.251363251707524,26.600299814281435,0.6222021886623692,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Frango a passarinho cm polenta,248
+MLP,69.56971859870606,40.22659007943027,0.485007548945954,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Frango a passarinho com fritas chddar e bacon,171
+RandomForest,2.256438407250303,1.4871428571428569,0.8891181333333333,"{'model__max_depth': None, 'model__n_estimators': 50}",Gelo E Limao,390
+SVR,9.164072347025098,5.019968378658832,-0.0021384175571370623,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Gin Taça,256
+SVR,11.463878661027868,7.091687425109578,0.1327131065611128,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Growler Gin,270
+MLP,153.97250962300478,110.87524727365928,0.4811443523994322,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Growler IPA,645
+RandomForest,46.02710543659872,33.953699771538886,0.7345598066117826,"{'model__max_depth': 5, 'model__n_estimators': 100}",Growler Lager,563
+MLP,185.13837632258944,136.79028820476486,0.9303906143129991,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (100,)}",Growler Pilsen,694
+Linear,19.026829995829765,16.86508879869988,0.6027012312746052,{'model__fit_intercept': True},Growler Stout,366
+SVR,7.959672181869537,3.204084332702038,-0.06902984879426977,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Growler Weiss,195
+KNN,0.0,0.0,1.0,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Growler Witbier,172
+SVR,5.094905561246461,2.685565884333701,0.41357995794237645,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Guarana,303
+Linear,78.17565428389827,47.28995296569524,0.4174175167345686,{'model__fit_intercept': True},Hamburguer Defumado (Bacon e Picles),303
+MLP,21.137592280396216,16.85659759339552,0.465135039499633,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Heineken Zero Alcool,181
+KNN,70.91777770121513,49.19092859606394,0.6858255316103264,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",ISCA DE FRANGO EMPANADO,348
+RandomForest,76.64924885805522,44.230056807314554,0.4023540960348404,"{'model__max_depth': 3, 'model__n_estimators': 100}",Isca de Frango Acebolada com mandioca frita,288
+RandomForest,52.66494245747411,36.5652682995853,0.19756452161877214,"{'model__max_depth': 3, 'model__n_estimators': 50}",Isca de carne acebolada,224
+Linear,25.164157048981266,17.461735719767,0.2669884104102611,{'model__fit_intercept': True},Linguiça defumada com Mandioca,176
+Linear,33.84184737893121,21.87989825894528,0.36754254951391374,{'model__fit_intercept': True},Mandioca,253
+KNN,45.28110955468482,23.339943582602302,0.6192130212637146,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Medalhão de frango com batata frita e cheddar,180
+RandomForest,103.16684322611084,80.79191481033813,0.32508576149391677,"{'model__max_depth': 3, 'model__n_estimators': 100}",PILSEN PROMOCIONAL,190
+RandomForest,51.814538856070506,36.26368095486352,0.5967011647045573,"{'model__max_depth': 3, 'model__n_estimators': 50}",Pastel Misto,316
+MLP,342.82922825131567,255.0767846716895,-0.5106944913811287,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Pilsen,306
+RandomForest,10.683356481178068,7.201117352446201,0.10518861128119328,"{'model__max_depth': 3, 'model__n_estimators': 50}",Polenta,120
+RandomForest,20.30000803287632,13.86863122552317,0.520598811954214,"{'model__max_depth': 3, 'model__n_estimators': 100}",Porky Belly ( Barriga de porco defumada ),167
+KNN,27.19180864052366,16.88285714285714,0.31797588069825233,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Porção de Frios  Individual,247
+RandomForest,47.886056776742194,29.360180650584038,0.38997307545469495,"{'model__max_depth': 3, 'model__n_estimators': 100}",Porção de Frios Completa,169
+SVR,2.8145557985402294,1.3695590223278558,0.2929608509804643,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Schweppes Citrus,182
+RandomForest,4.262633371802617,2.7721623445908343,0.2561970594336992,"{'model__max_depth': 3, 'model__n_estimators': 100}",Sprite,163
+KNN,0.0,0.0,1.0,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Suco de Laranja Afrutte 300ml,219
+SVR,2.4836701475041183,1.535964818237329,-0.46551395238086446,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",TRIDENT,92
+MLP,19.615113932373255,16.13462894101564,0.25629656668957845,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Torresmo,181
+RandomForest,7.607031602048625,5.464128258270487,0.05104432398468639,"{'model__max_depth': 3, 'model__n_estimators': 100}",Água Tônica,209
+MLP,19.451948652720976,11.211188078176523,0.7728745178713229,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Água com Gás 500ml,499
+RandomForest,15.977711261092972,10.008571428571429,0.9228430186584425,"{'model__max_depth': None, 'model__n_estimators': 100}",Água sem gás 500ml,569

@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,19.451948652720976,11.211188078176523,0.7728745178713229,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Água com Gás 500ml,499
+Linear,21.37644095493867,11.651219238872178,0.7257097108386925,{'model__fit_intercept': True},Água com Gás 500ml,499
+RandomForest,24.85287336075477,13.98,0.6292400226628896,"{'model__max_depth': None, 'model__n_estimators': 50}",Água com Gás 500ml,499
+KNN,28.64950759985738,18.285714285714285,0.5073097618865324,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Água com Gás 500ml,499
+SVR,32.1224776141065,19.101682166510106,0.3806192501600809,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Água com Gás 500ml,499

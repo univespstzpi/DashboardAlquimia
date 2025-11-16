@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,39.251363251707524,26.600299814281435,0.6222021886623692,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Frango a passarinho cm polenta,248
+MLP,41.40912422532419,26.0686383505681,0.57952319957124,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Frango a passarinho cm polenta,248
+RandomForest,44.765839510329556,26.832969726716836,0.5085906511520868,"{'model__max_depth': 3, 'model__n_estimators': 100}",Frango a passarinho cm polenta,248
+Linear,46.600290856617875,31.688076498004982,0.46749069324310755,{'model__fit_intercept': True},Frango a passarinho cm polenta,248
+SVR,70.77169438686326,42.66636915232118,-0.2282001174161914,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Frango a passarinho cm polenta,248

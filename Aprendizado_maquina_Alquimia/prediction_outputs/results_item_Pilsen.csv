@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,342.82922825131567,255.0767846716895,-0.5106944913811287,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Pilsen,306
+SVR,345.89602592461534,208.90931102598046,-0.5378433825510487,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Pilsen,306
+Linear,350.25733410371157,274.6629631702281,-0.576868360204303,{'model__fit_intercept': True},Pilsen,306
+KNN,377.8500541107017,286.27823044339146,-0.835100869544575,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Pilsen,306
+RandomForest,524.7355656314141,325.2996572312304,-2.5391744113177666,"{'model__max_depth': 3, 'model__n_estimators': 100}",Pilsen,306

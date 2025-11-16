@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,0.0,0.0,1.0,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Growler Witbier,172
+SVR,0.10559026559457779,0.07265234759818043,0.0,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Growler Witbier,172
+RandomForest,1.3482384407301637,1.330648510753457,0.0,"{'model__max_depth': 3, 'model__n_estimators': 50}",Growler Witbier,172
+MLP,3.5192424805658895,2.9171769713541402,0.0,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Growler Witbier,172
+Linear,9.622779126064474,7.305785085966283,0.0,{'model__fit_intercept': True},Growler Witbier,172

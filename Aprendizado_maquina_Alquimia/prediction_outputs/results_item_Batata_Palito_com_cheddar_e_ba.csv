@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,48.16813864416313,30.01960975868881,0.6847595678745487,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Batata Palito com cheddar e bacon,355
+RandomForest,48.94922975751073,26.702098885707994,0.6744528405090253,"{'model__max_depth': 5, 'model__n_estimators': 50}",Batata Palito com cheddar e bacon,355
+Linear,49.58740378545136,26.543807667870738,0.6659088839427452,{'model__fit_intercept': True},Batata Palito com cheddar e bacon,355
+KNN,56.20284385280568,33.22571428571428,0.570820698757764,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Batata Palito com cheddar e bacon,355
+SVR,86.47685529720896,57.91491407628418,-0.016066100828045826,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Batata Palito com cheddar e bacon,355

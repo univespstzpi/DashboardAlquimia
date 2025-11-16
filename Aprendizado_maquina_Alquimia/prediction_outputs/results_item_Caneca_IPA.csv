@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,92.73354486405212,62.476346194431514,0.7144253198600881,"{'model__max_depth': 3, 'model__n_estimators': 100}",Caneca IPA,652
+MLP,92.89879090485422,63.11856020424293,0.7134066565409016,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (100,)}",Caneca IPA,652
+KNN,95.46601837203636,81.22151031783817,0.6973479671965601,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Caneca IPA,652
+Linear,102.09247020837645,76.03564029152123,0.6538746563527966,{'model__fit_intercept': True},Caneca IPA,652
+SVR,167.10466390078597,144.04296451288755,0.07269389641036628,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}",Caneca IPA,652

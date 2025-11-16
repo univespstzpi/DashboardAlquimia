@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,127.99776984112829,81.56279463126702,0.4190588691952457,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Caipirinha (CACHAÇA),316
+Linear,130.78608637611438,79.26957843441467,0.3934726230017608,{'model__fit_intercept': True},Caipirinha (CACHAÇA),316
+KNN,135.2142246955547,84.41431908568089,0.3517058768405411,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Caipirinha (CACHAÇA),316
+RandomForest,136.96149258881698,77.05448997850654,0.33484282431068557,"{'model__max_depth': 5, 'model__n_estimators': 50}",Caipirinha (CACHAÇA),316
+SVR,193.9073375571415,121.3068627321004,-0.33326293794045103,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caipirinha (CACHAÇA),316

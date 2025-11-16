@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,3.679283520162735,1.1001249742708015,-0.04131747859546819,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Caneca Red Ale,99
+Linear,4.846109235249452,3.185654267508927,-0.8065211323053869,{'model__fit_intercept': True},Caneca Red Ale,99
+RandomForest,8.120645533320484,5.6244505255591415,-4.072683375218302,"{'model__max_depth': 3, 'model__n_estimators': 50}",Caneca Red Ale,99
+KNN,8.333066662399863,5.2,-4.341538461538462,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Caneca Red Ale,99
+MLP,9.061879270364807,7.9336820452514445,-5.3167427623590315,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Caneca Red Ale,99

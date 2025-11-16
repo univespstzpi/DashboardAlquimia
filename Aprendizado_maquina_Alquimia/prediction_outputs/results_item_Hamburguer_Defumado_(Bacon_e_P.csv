@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+Linear,78.17565428389827,47.28995296569524,0.4174175167345686,{'model__fit_intercept': True},Hamburguer Defumado (Bacon e Picles),303
+MLP,79.04405365923465,47.049585252716106,0.40440261598664173,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Hamburguer Defumado (Bacon e Picles),303
+RandomForest,84.43552788666736,47.70562246661173,0.3203820846082289,"{'model__max_depth': 3, 'model__n_estimators': 100}",Hamburguer Defumado (Bacon e Picles),303
+KNN,87.21393106280999,48.048571428571435,0.2749197139422047,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Hamburguer Defumado (Bacon e Picles),303
+SVR,108.61323578108146,56.74745355950542,-0.12455286807763666,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Hamburguer Defumado (Bacon e Picles),303

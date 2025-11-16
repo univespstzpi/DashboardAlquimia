@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,8.863482249727639,5.057385056617207,0.40085532109406863,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Balde de Gelo,279
+KNN,9.648488235099956,5.929511293052495,0.2900275586116342,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Balde de Gelo,279
+RandomForest,9.949119548052606,6.288530723860714,0.24509509583024403,"{'model__max_depth': 5, 'model__n_estimators': 50}",Balde de Gelo,279
+MLP,10.319825951980137,7.522706244825274,0.18779119435346692,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Balde de Gelo,279
+Linear,14.783780343404715,11.867389406276132,-0.6668401402116644,{'model__fit_intercept': True},Balde de Gelo,279

@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,5.699708112505855,3.0962227628122494,-0.0073386842717846346,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Del Vale Uva Lata 290ml,94
+Linear,6.033537321149219,4.941535930715609,-0.12879294901396876,{'model__fit_intercept': False},Del Vale Uva Lata 290ml,94
+KNN,6.9498201415576215,5.1,-0.4976744186046511,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Del Vale Uva Lata 290ml,94
+RandomForest,8.686574842305879,6.532515244002518,-1.3397389919684155,"{'model__max_depth': 3, 'model__n_estimators': 50}",Del Vale Uva Lata 290ml,94
+MLP,9.38538786117812,6.717407564629911,-1.7313334978216939,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Del Vale Uva Lata 290ml,94

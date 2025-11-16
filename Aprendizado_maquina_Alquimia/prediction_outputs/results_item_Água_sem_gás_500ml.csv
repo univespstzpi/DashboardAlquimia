@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,15.977711261092972,10.008571428571429,0.9228430186584425,"{'model__max_depth': None, 'model__n_estimators': 100}",Água sem gás 500ml,569
+Linear,16.09341637676425,12.085093516518643,0.9217214835274061,{'model__fit_intercept': True},Água sem gás 500ml,569
+MLP,21.027751657754404,16.245905177259367,0.866361445494344,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Água sem gás 500ml,569
+KNN,30.70084727159372,20.85137042503158,0.7151299359352816,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Água sem gás 500ml,569
+SVR,45.51428852250834,31.766099699208006,0.37390302220017535,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}",Água sem gás 500ml,569

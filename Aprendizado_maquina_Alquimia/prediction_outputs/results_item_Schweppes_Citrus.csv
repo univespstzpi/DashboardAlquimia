@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,2.8145557985402294,1.3695590223278558,0.2929608509804643,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Schweppes Citrus,182
+Linear,3.047445731527668,2.156136212758779,0.17111229718815313,{'model__fit_intercept': True},Schweppes Citrus,182
+RandomForest,3.1494443840059008,2.387443700094938,0.11469763848930936,"{'model__max_depth': 3, 'model__n_estimators': 50}",Schweppes Citrus,182
+MLP,3.7447066655075996,2.9414851673813223,-0.25158209931540143,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Schweppes Citrus,182
+KNN,3.7805701412852963,2.493284369505532,-0.2756699800832756,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Schweppes Citrus,182

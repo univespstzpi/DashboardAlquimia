@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,7.959672181869537,3.204084332702038,-0.06902984879426977,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Growler Weiss,195
+MLP,9.368835680327374,6.912697381478831,-0.4810533809379436,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Growler Weiss,195
+KNN,9.432769628117866,6.828571428571429,-0.5013360881542699,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Growler Weiss,195
+RandomForest,10.239255298149457,7.695068978161784,-0.7690341267126048,"{'model__max_depth': 3, 'model__n_estimators': 100}",Growler Weiss,195
+Linear,11.568921351901702,8.251612501125134,-1.2583185678642792,{'model__fit_intercept': True},Growler Weiss,195

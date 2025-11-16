@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios Gerais - Cervejaria Alquimia</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-file-alt"></i> Relatórios Gerais</h1>
+            <p>Análises de Vendas e Faturamento</p>
+            <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Voltar para Home</a>
+        </header>
+
+        <div class="charts-grid">
+            <div class="chart-container report-container">
+                <h3>TOP 10 Produtos Mais Pedidos</h3>
+                <canvas id="topProdutosChart"></canvas>
+            </div>
+
+            <div class="chart-container report-container-large">
+                <h3>Faturamento Mensal (Últimos 12 Meses)</h3>
+                <canvas id="faturamentoMensalChart"></canvas>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='relatorio_geral.js') }}"></script>
+</body>
+</html>

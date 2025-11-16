@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,10.785257173953326,8.8520073362537,0.8455347738995319,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Coca Cola 350ml,561
+RandomForest,15.546387977969808,13.764259061750312,0.6790564016553755,"{'model__max_depth': 5, 'model__n_estimators': 50}",Coca Cola 350ml,561
+Linear,17.15844462575667,14.459588633253224,0.6090461009001968,{'model__fit_intercept': True},Coca Cola 350ml,561
+MLP,17.261803903766754,13.818112868455753,0.6043218475178114,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Coca Cola 350ml,561
+SVR,19.977792079017803,16.34983137832192,0.4700136411579714,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Coca Cola 350ml,561

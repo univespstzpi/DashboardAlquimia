@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,13.16550686503955,8.359503625145049,0.6620026273616375,"{'model__max_depth': 5, 'model__n_estimators': 100}",Coca Cola Zero 350ml,392
+Linear,13.729590844243225,9.382991986210069,0.6324187530736214,{'model__fit_intercept': True},Coca Cola Zero 350ml,392
+MLP,15.245768037973317,11.112325854556655,0.5467510860268725,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Coca Cola Zero 350ml,392
+KNN,16.428439971775806,13.061860417742041,0.47370310588165343,"{'model__n_neighbors': 3, 'model__weights': 'distance'}",Coca Cola Zero 350ml,392
+SVR,20.623460458471996,13.692249246278937,0.1706053429311628,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Coca Cola Zero 350ml,392

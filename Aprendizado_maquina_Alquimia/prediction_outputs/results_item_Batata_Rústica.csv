@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+Linear,25.189892014243846,17.557570772633998,0.41679167307971887,{'model__fit_intercept': True},Batata Rústica,251
+RandomForest,25.927168186945543,15.784005043378128,0.38215252739507244,"{'model__max_depth': 3, 'model__n_estimators': 100}",Batata Rústica,251
+MLP,31.73604206607718,20.81666142195945,0.0742864282906065,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (100,)}",Batata Rústica,251
+SVR,33.37434604628557,15.633647320376047,-0.02375640994229511,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Batata Rústica,251
+KNN,34.65035222245632,19.693618030068343,-0.1035357620774664,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Batata Rústica,251

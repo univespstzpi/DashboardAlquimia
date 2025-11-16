@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,2.256438407250303,1.4871428571428569,0.8891181333333333,"{'model__max_depth': None, 'model__n_estimators': 50}",Gelo E Limao,390
+KNN,2.5722730085847645,1.6893934990892367,0.8559054075093369,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Gelo E Limao,390
+MLP,2.795717067037371,2.1479505595572133,0.8297841502100987,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Gelo E Limao,390
+Linear,2.908723575051505,2.162105569621069,0.8157453471257956,{'model__fit_intercept': True},Gelo E Limao,390
+SVR,3.5779215856317226,1.8869063374147956,0.7212112796562038,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}",Gelo E Limao,390

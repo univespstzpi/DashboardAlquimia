@@ -1,0 +1,4 @@
+{
+    // Define o caminho para o interpretador Python dentro do ambiente virtual
+    "python.defaultInterpreterPath": "${workspaceFolder}/alquimia-relatorios/venv/bin/python"
+}

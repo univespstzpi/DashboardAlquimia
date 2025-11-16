@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,508.1555632099892,328.0647114634545,0.7937524401870385,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}",Couvert Artístico,487
+Linear,541.3593373702828,389.08981782242296,0.7659187037767965,{'model__fit_intercept': True},Couvert Artístico,487
+RandomForest,565.6223170503134,333.7658177431687,0.7444661001778619,"{'model__max_depth': 5, 'model__n_estimators': 50}",Couvert Artístico,487
+KNN,754.8956758098818,505.86871603691185,0.5448345119230463,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Couvert Artístico,487
+SVR,1271.5088580037193,877.9172843598977,-0.2913210482710351,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}",Couvert Artístico,487

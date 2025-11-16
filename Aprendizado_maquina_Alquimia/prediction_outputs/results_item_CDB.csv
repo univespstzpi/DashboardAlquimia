@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+Linear,2.2490063329490955,1.2593122764258557,0.29839081444695903,{'model__fit_intercept': True},CDB,101
+RandomForest,2.400200112179699,1.224369004854756,0.20088586455240032,"{'model__max_depth': 3, 'model__n_estimators': 50}",CDB,101
+SVR,2.8507450768606106,1.1380746742911705,-0.1272770762038371,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",CDB,101
+KNN,2.952480797082829,1.5,-0.20917197452229308,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",CDB,101
+MLP,3.1451350928660946,1.9881656722099088,-0.3721213386171638,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",CDB,101

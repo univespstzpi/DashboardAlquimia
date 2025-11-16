@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,37.80888527488945,30.71202344581265,0.7401307876407783,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Coxinha Frango Catupiry,323
+Linear,43.9010318274646,34.56910409410428,0.6496383690370853,{'model__fit_intercept': True},Coxinha Frango Catupiry,323
+RandomForest,45.675868961115675,32.45108705820006,0.620736786555482,"{'model__max_depth': 3, 'model__n_estimators': 100}",Coxinha Frango Catupiry,323
+KNN,50.41050413666277,37.49130215726514,0.5380349022469779,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Coxinha Frango Catupiry,323
+SVR,76.64182290344202,46.939611573921454,-0.06782168290044877,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Coxinha Frango Catupiry,323

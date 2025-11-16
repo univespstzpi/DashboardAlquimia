@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,27.19180864052366,16.88285714285714,0.31797588069825233,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",Porção de Frios  Individual,247
+RandomForest,30.58496041934467,20.149250196631304,0.13714188384929327,"{'model__max_depth': 3, 'model__n_estimators': 100}",Porção de Frios  Individual,247
+Linear,34.31174274306661,25.94617351509218,-0.08594816801572724,{'model__fit_intercept': True},Porção de Frios  Individual,247
+SVR,34.36766029509971,16.871461020084034,-0.0894905729573634,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Porção de Frios  Individual,247
+MLP,36.610345208505635,24.993682390110084,-0.23632084243449758,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Porção de Frios  Individual,247

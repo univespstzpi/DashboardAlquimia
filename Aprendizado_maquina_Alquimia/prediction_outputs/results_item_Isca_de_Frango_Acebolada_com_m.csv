@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,76.64924885805522,44.230056807314554,0.4023540960348404,"{'model__max_depth': 3, 'model__n_estimators': 100}",Isca de Frango Acebolada com mandioca frita,288
+Linear,79.16197440217935,44.76788111886591,0.36252761519437415,{'model__fit_intercept': True},Isca de Frango Acebolada com mandioca frita,288
+MLP,80.90413243285883,53.89297852184359,0.33416050667246977,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Isca de Frango Acebolada com mandioca frita,288
+KNN,86.53465332231599,43.17175107110952,0.23825737682283443,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Isca de Frango Acebolada com mandioca frita,288
+SVR,111.62186013158097,64.19907354538086,-0.2674377902905063,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Isca de Frango Acebolada com mandioca frita,288

@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+MLP,2.9377938837563677,1.97427014628815,0.5222806978047108,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",Copo Com Gelo,350
+Linear,2.9621276571207082,2.26880698098715,0.5143340157052907,{'model__fit_intercept': True},Copo Com Gelo,350
+RandomForest,2.981688049370819,1.9264313753123978,0.507898652850294,"{'model__max_depth': 5, 'model__n_estimators': 100}",Copo Com Gelo,350
+SVR,3.2792759446380795,1.4662968161197916,0.4047682741225457,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}",Copo Com Gelo,350
+KNN,4.426251553139364,1.8993236428522704,-0.08443201103842224,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Copo Com Gelo,350

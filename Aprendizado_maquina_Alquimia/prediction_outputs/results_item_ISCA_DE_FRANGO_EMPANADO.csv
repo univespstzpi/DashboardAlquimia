@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,70.91777770121513,49.19092859606394,0.6858255316103264,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",ISCA DE FRANGO EMPANADO,348
+Linear,71.70680933063998,53.188616906635,0.6787956264549936,{'model__fit_intercept': True},ISCA DE FRANGO EMPANADO,348
+MLP,81.34183894917822,57.30773036047374,0.5866779011461645,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (100,)}",ISCA DE FRANGO EMPANADO,348
+RandomForest,84.7610338497243,56.482284299075324,0.5511996949214426,"{'model__max_depth': 3, 'model__n_estimators': 100}",ISCA DE FRANGO EMPANADO,348
+SVR,119.13299689361287,70.73032648610535,0.11340600204751106,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",ISCA DE FRANGO EMPANADO,348

@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+SVR,2.4836701475041183,1.535964818237329,-0.46551395238086446,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",TRIDENT,92
+Linear,2.55930854739495,2.259196939028944,-0.5561355238675079,{'model__fit_intercept': True},TRIDENT,92
+RandomForest,2.6702374174037464,2.379792485835768,-0.693955032241689,"{'model__max_depth': 3, 'model__n_estimators': 100}",TRIDENT,92
+KNN,3.1622776601683795,2.4285714285714284,-1.375757575757575,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",TRIDENT,92
+MLP,4.373369498521823,3.2063968485818046,-3.5439596497427868,"{'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,)}",TRIDENT,92

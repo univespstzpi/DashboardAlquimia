@@ -1,0 +1,6 @@
+model,best_params
+Linear,{'model__fit_intercept': True}
+RandomForest,"{'model__max_depth': 3, 'model__n_estimators': 100}"
+KNN,"{'model__n_neighbors': 3, 'model__weights': 'distance'}"
+SVR,"{'model__C': 1, 'model__epsilon': 0.01, 'model__kernel': 'rbf'}"
+MLP,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (100,)}"

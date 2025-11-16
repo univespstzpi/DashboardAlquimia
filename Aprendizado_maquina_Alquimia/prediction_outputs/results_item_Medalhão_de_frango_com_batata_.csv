@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+KNN,45.28110955468482,23.339943582602302,0.6192130212637146,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Medalhão de frango com batata frita e cheddar,180
+MLP,55.0140922573423,32.425013523662734,0.4379229261364703,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Medalhão de frango com batata frita e cheddar,180
+Linear,56.5304482412349,31.971847248675612,0.4065107910158313,{'model__fit_intercept': True},Medalhão de frango com batata frita e cheddar,180
+RandomForest,60.14903119638842,30.387423884689003,0.32809907023529405,"{'model__max_depth': 3, 'model__n_estimators': 100}",Medalhão de frango com batata frita e cheddar,180
+SVR,82.05642204811991,38.9125864939055,-0.2504695513790791,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Medalhão de frango com batata frita e cheddar,180

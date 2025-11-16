@@ -1,0 +1,6 @@
+model,rmse,mae,r2,best_params,item,n_nonzero_days
+RandomForest,11.296335689063069,8.540000000000001,0.8865713777777778,"{'model__max_depth': None, 'model__n_estimators': 50}",Energetico Monster 473ml,376
+Linear,13.401004508060362,9.165001252596719,0.8403671805999519,{'model__fit_intercept': True},Energetico Monster 473ml,376
+MLP,15.764366712317704,10.20427202946649,0.779097548586284,"{'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,)}",Energetico Monster 473ml,376
+KNN,17.995222051230886,14.161850564167738,0.7121528740683499,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",Energetico Monster 473ml,376
+SVR,26.554904016791024,16.757664029464166,0.37318850903023637,"{'model__C': 1, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",Energetico Monster 473ml,376
